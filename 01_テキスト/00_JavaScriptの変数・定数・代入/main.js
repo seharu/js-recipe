@@ -1,9 +1,13 @@
-let myNickname = "エキスパくん"
+// 引数 number を受け取る関数
+const genkiFunction = function(number) {
+    // n を 1 から、 number まで、 値を 1 ずつ増やしながら、 for の {} の中身を繰り返す
+    for (let n = 1; n <= number; n++) {
+      if (n % 3 === 0) {
+        console.log(`${n}!!!!!!!`)
+      } else {
+        console.log(n)
+      }
+    }
+  }
 
-console.log(myNickname) // => "エキスパくん" と表示される
-
-// TRY: 変数 myNickname に再代入して自分のあだ名を表示してください
-
-console.log(myNickname)
-
-// TRY: myAge を定数で宣言して自分の年齢を表示してください
+  genkiFunction(100)

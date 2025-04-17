@@ -15,3 +15,6 @@ const isNotHappyAndSleepy = !isHappy && isSleepy
 // console.log("isNotHappyAndSleepy" + "は" + true + "ですか？", isNotHappyAndSleepy)
 // console.log("isHappy", isHappy)
 // console.log("isSleepy", isSleepy)
+
+console.log(57052 + 57054);
+console.log("114"+"106")
